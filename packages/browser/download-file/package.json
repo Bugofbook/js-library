@@ -1,4 +1,14 @@
 {
   "name": "@bugofbook/browser/downloadFile",
-  "version": "0.0.1"
+  "version": "0.0.0-semantic-release",
+  "type": "module",
+  "description": "Download file from browser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bugofbook/js-library.git",
+    "directory": "packages/browser/downloadFile"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
