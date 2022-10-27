@@ -28,6 +28,13 @@
         "jestConfig": "packages/browser/download-file/jest.config.ts",
         "passWithNoTests": true
       }
+    },
+    "release": {
+      "executor": "nx:run-commands",
+      "outputs": [],
+      "options": {
+        "command": "npx semantic-release-plus --extends ./packages/browser/download/release.config.js"
+      }
     }
   },
   "tags": ["browser", "download"]
