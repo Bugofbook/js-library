@@ -115,7 +115,7 @@ jobs:
             pnpm install --frozen-lockfile
           else
             echo "Running npm ci"
-            npm ci
+            npm install --force
           fi
           
       - run: |
