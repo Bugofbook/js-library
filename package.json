@@ -2,13 +2,19 @@
   "name": "js-library",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
   "private": true,
   "dependencies": {
     "@nrwl/js": "^15.0.3",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@commitlint/config-nx-scopes": "^17.0.0",
+    "@commitlint/cz-commitlint": "^17.1.2",
     "@nrwl/eslint-plugin-nx": "15.0.3",
     "@nrwl/jest": "15.0.3",
     "@nrwl/linter": "15.0.3",
@@ -17,10 +23,13 @@
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
+    "commitizen": "^4.2.5",
     "eslint": "~8.15.0",
     "eslint-config-prettier": "8.1.0",
+    "husky": "^8.0.0",
     "jest": "28.1.1",
     "jest-environment-jsdom": "28.1.1",
+    "lint-staged": "^13.0.3",
     "nx": "15.0.3",
     "prettier": "^2.6.2",
     "ts-jest": "28.0.5",
