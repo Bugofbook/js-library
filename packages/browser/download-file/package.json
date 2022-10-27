@@ -1,6 +1,6 @@
 {
   "name": "@bugofbook/browser/downloadFile",
-  "version": "1.0.1",
+  "version": "2.2.2",
   "type": "commonjs",
   "description": "Download file from browser",
   "repository": {
