@@ -1,3 +1,3 @@
-export function browserDownloadFile(): string {
-  return 'browser-download-file';
+export function browserDownloadFile(a: number, b: number): number {
+  return a + b;
 }
