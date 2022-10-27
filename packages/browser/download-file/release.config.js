@@ -1,4 +1,4 @@
-const name = 'packages/browser/download-file';
+const name = 'browser/download-file';
 const srcRoot = `packages/${name}`;
 
 module.exports = {
